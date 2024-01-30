@@ -1,0 +1,26 @@
+body {
+  background: #202020;
+  background: url('stopwatch.gif') no-repeat center;
+  color: #e6e6e6;
+  text-align: center;
+  font-size: 0.7em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  margin: 0;
+}
+
+.stopwatch-container {
+  width: 400px; 
+   height: 200px; 
+   border-radius: 50%;   
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.stopwatch {
+  font-size: 30px;
+}
